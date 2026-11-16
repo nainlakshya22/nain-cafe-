@@ -1,0 +1,25 @@
+{
+  "messages": [
+    {
+      "id": "msg-1794852169692-5yxj",
+      "name": "Julian Vance",
+      "email": "julian.vance@dal.ca",
+      "phone": "(902) 221-4455",
+      "subject": "Private Vinyl Evening Booking",
+      "message": "Hello, our music society would like to host an acoustic listening night for 15 guests at Aashu Smoky.",
+      "createdAt": "2026-11-16T18:02:49.692Z",
+      "clientIp": "203.0.113.20",
+      "status": "received"
+    },
+    {
+      "id": "msg-demo-101",
+      "name": "Clara Evans",
+      "email": "clara.evans@example.com",
+      "phone": "(902) 555-3312",
+      "subject": "Private Evening Vinyl Listening Event",
+      "message": "Hello Aashu Smoky team! We would like to rent your space for an intimate record listening session for 12 guests next month. Please send pricing details.",
+      "createdAt": "2026-11-16T15:00:00.000Z",
+      "status": "reviewed"
+    }
+  ]
+}

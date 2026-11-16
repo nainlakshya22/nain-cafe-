@@ -1,0 +1,216 @@
+{
+  "business": {
+    "name": "Aashu Smoky",
+    "tagline": "Listen, Coffee, Records & a Place to Pause",
+    "address": "1237 Barrington Street, Halifax, Nova Scotia, B3J 1Y2",
+    "phone": "+1 (902) 223-6696",
+    "email": "aashusmoky@gmail.com",
+    "whatsapp": "+19022236696",
+    "instagram": "https://www.instagram.com/aashusmoky/",
+    "hours": {
+      "weekdays": "8:00 AM – 7:00 PM",
+      "weekends": "8:00 AM – 7:00 PM"
+    }
+  },
+  "menuCategories": [
+    "All",
+    "Hot Coffee",
+    "Cold Coffee",
+    "Signature Drinks",
+    "Food",
+    "Desserts",
+    "Special Offers"
+  ],
+  "menu": [
+    {
+      "id": "as-smoky-caramel",
+      "name": "Smoky Maple Caramel Latte",
+      "category": "Signature Drinks",
+      "price": 6.75,
+      "currency": "CAD",
+      "description": "Double espresso infused with house-smoked Nova Scotia maple syrup, velvety steamed oat milk, and a pinch of Maldon smoked sea salt.",
+      "image": "/images/smoky-latte.jpg",
+      "dietary": ["Vegetarian", "Vegan Optional"],
+      "available": true,
+      "badge": "Signature Special"
+    },
+    {
+      "id": "as-pistachio-velvet",
+      "name": "Pistachio Velvet Latte",
+      "category": "Signature Drinks",
+      "price": 6.50,
+      "currency": "CAD",
+      "description": "Slow-roasted Sicilian pistachio cream blended with rich espresso and warm textured milk, topped with crushed pistachio dust.",
+      "image": "/images/listen-drinks.jpg",
+      "dietary": ["Vegetarian"],
+      "available": true,
+      "badge": "Customer Favorite"
+    },
+    {
+      "id": "as-espresso-single-origin",
+      "name": "Single Origin Cortado / Flat White",
+      "category": "Hot Coffee",
+      "price": 4.50,
+      "currency": "CAD",
+      "description": "Equal parts double ristretto espresso and silky textured microfoam. Notes of dark chocolate, roasted almond, and dried fig.",
+      "image": "/images/espresso-crema.jpg",
+      "dietary": ["Vegetarian", "Vegan Optional"],
+      "available": true,
+      "badge": "Barista Pick"
+    },
+    {
+      "id": "as-pour-over",
+      "name": "Artisanal Pour-Over V60",
+      "category": "Hot Coffee",
+      "price": 5.25,
+      "currency": "CAD",
+      "description": "Hand-poured single origin Ethiopian Yirgacheffe. Delicate floral jasmine aroma, bergamot sweetness, and bright citrus finish.",
+      "image": "/images/coffee.jpg",
+      "dietary": ["Vegan", "Gluten-Free"],
+      "available": true,
+      "badge": "Specialty"
+    },
+    {
+      "id": "as-nitro-cold-brew",
+      "name": "24-Hour Nitro Cold Brew",
+      "category": "Cold Coffee",
+      "price": 5.75,
+      "currency": "CAD",
+      "description": "Slow steeped cold for 24 hours and infused with food-grade nitrogen for a creamy Guinness-like head and naturally sweet finish.",
+      "image": "/images/cold-coffee.jpg",
+      "dietary": ["Vegan", "Sugar-Free"],
+      "available": true,
+      "badge": "Chilled"
+    },
+    {
+      "id": "as-iced-vanilla-shakerato",
+      "name": "Iced Smoked Vanilla Shakerato",
+      "category": "Cold Coffee",
+      "price": 6.00,
+      "currency": "CAD",
+      "description": "Double espresso shaken vigorously over ice with Madagascar vanilla bean extract and turbinado sugar, strained into chilled coupe glassware.",
+      "image": "/images/listen-drinks.jpg",
+      "dietary": ["Vegan"],
+      "available": true,
+      "badge": "Refreshing"
+    },
+    {
+      "id": "as-ceremonial-matcha",
+      "name": "Uji Ceremonial Matcha Latte",
+      "category": "Signature Drinks",
+      "price": 6.25,
+      "currency": "CAD",
+      "description": "First harvest Japanese ceremonial matcha hand-whisked with bamboo chasen, paired with organic oat milk and wildflower honey.",
+      "image": "/images/matcha.jpg",
+      "dietary": ["Vegetarian", "Vegan Optional"],
+      "available": true,
+      "badge": "Organic"
+    },
+    {
+      "id": "as-avocado-sourdough",
+      "name": "Smoked Chili Avocado Sourdough",
+      "category": "Food",
+      "price": 12.50,
+      "currency": "CAD",
+      "description": "Crushed Hass avocado on toasted heritage sourdough with smoked chili flakes, pickled shallots, microgreens, and cold-pressed olive oil.",
+      "image": "/images/sourdough.jpg",
+      "dietary": ["Vegan"],
+      "available": true,
+      "badge": "Kitchen Fresh"
+    },
+    {
+      "id": "as-truffle-prosciutto-panini",
+      "name": "Truffle & Fontina Grilled Panini",
+      "category": "Food",
+      "price": 14.00,
+      "currency": "CAD",
+      "description": "Fontina cheese, shaved black truffle oil, roasted wild mushrooms, and arugula pressed to crispy golden perfection on ciabatta bread.",
+      "image": "/images/panini.jpg",
+      "dietary": ["Vegetarian"],
+      "available": true,
+      "badge": "Warm Press"
+    },
+    {
+      "id": "as-espresso-tiramisu",
+      "name": "House Espresso Tiramisu",
+      "category": "Desserts",
+      "price": 8.50,
+      "currency": "CAD",
+      "description": "Traditional savoiardi ladyfingers soaked in our signature house espresso and aged rum, layered with whipped mascarpone cream and Valrhona cocoa.",
+      "image": "/images/tiramisu.jpg",
+      "dietary": ["Vegetarian"],
+      "available": true,
+      "badge": "House Made"
+    },
+    {
+      "id": "as-basque-cheesecake",
+      "name": "Burnt Basque Cheesecake",
+      "category": "Desserts",
+      "price": 8.00,
+      "currency": "CAD",
+      "description": "Caramelized deeply on top with a molten, custardy center. Served with seasonal berry compote and smoked sea salt crystals.",
+      "image": "/images/cheesecake.jpg",
+      "dietary": ["Vegetarian", "Gluten-Free"],
+      "available": true,
+      "badge": "Daily Baked"
+    },
+    {
+      "id": "as-vinyl-pairing-bundle",
+      "name": "Vinyl Session & Coffee Flight (for 2)",
+      "category": "Special Offers",
+      "price": 22.00,
+      "currency": "CAD",
+      "description": "Two specialty coffees of your choice, a shared dessert plate, and 45 minutes of reserved listening at our master hi-fi turntable booth.",
+      "image": "/images/listen-vinyl.jpg",
+      "dietary": ["Experience Bundle"],
+      "available": true,
+      "badge": "Special Experience"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "name": "Marcus Vance",
+      "role": "Sound Designer & Coffee Enthusiast",
+      "quote": "Aashu Smoky is the rarest kind of sanctuary in the city. The turntable setup is audiophile-grade, and the Smoky Maple Caramel Latte is genuinely the best espresso drink in town.",
+      "rating": 5
+    },
+    {
+      "id": "t2",
+      "name": "Elena Rostova",
+      "role": "Music Producer",
+      "quote": "There is nothing like sipping a single origin pour-over while browsing through their curated vinyl collection. The warm wooden acoustics and welcoming staff make you want to stay all afternoon.",
+      "rating": 5
+    },
+    {
+      "id": "t3",
+      "name": "David Chen",
+      "role": "Halifax Resident",
+      "quote": "From the Burnt Basque Cheesecake to the calm, analog atmosphere, Aashu Smoky delivers an experience that respect your senses and your time. Outstanding place.",
+      "rating": 5
+    }
+  ],
+  "tracks": [
+    {
+      "id": "trk-1",
+      "title": "Autumn in Halifax (Vinyl Session)",
+      "artist": "The Aashu Smoky Trio",
+      "duration": "3:42",
+      "vinylBpm": 78
+    },
+    {
+      "id": "trk-2",
+      "title": "Barrington St. Blue Note",
+      "artist": "Miles & Cedar",
+      "duration": "4:15",
+      "vinylBpm": 72
+    },
+    {
+      "id": "trk-3",
+      "title": "Slow Drip & Warm Tubes",
+      "artist": "Analog Evening Ensemble",
+      "duration": "3:58",
+      "vinylBpm": 68
+    }
+  ]
+}

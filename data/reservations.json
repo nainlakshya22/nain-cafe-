@@ -1,0 +1,31 @@
+{
+  "reservations": [
+    {
+      "id": "res-1794852169684-1IQ1",
+      "name": "Maya Lin",
+      "email": "maya.lin@example.com",
+      "phone": "(902) 441-9922",
+      "date": "2026-11-25",
+      "time": "14:30",
+      "guests": 3,
+      "seating": "Vinyl Listening Booth",
+      "specialRequests": "Celebrating friend birthday, request Blue Note jazz album!",
+      "createdAt": "2026-11-16T18:02:49.685Z",
+      "clientIp": "203.0.113.10",
+      "status": "confirmed"
+    },
+    {
+      "id": "res-demo-101",
+      "name": "Julian Miller",
+      "email": "julian.miller@example.com",
+      "phone": "(902) 555-8921",
+      "date": "2026-11-20",
+      "time": "14:30",
+      "guests": 2,
+      "seating": "Vinyl Listening Booth",
+      "specialRequests": "Celebrating an anniversary, would love acoustic jazz vinyl playing.",
+      "createdAt": "2026-11-16T12:00:00.000Z",
+      "status": "confirmed"
+    }
+  ]
+}
