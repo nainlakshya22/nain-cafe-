@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <radialGradient id="vinylGrooves" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1e1c18" />
+      <stop offset="40%" stop-color="#12110f" />
+      <stop offset="45%" stop-color="#1a1815" />
+      <stop offset="70%" stop-color="#12110f" />
+      <stop offset="75%" stop-color="#181714" />
+      <stop offset="96%" stop-color="#12110f" />
+      <stop offset="100%" stop-color="#c2883f" />
+    </radialGradient>
+  </defs>
+
+  <!-- Vinyl Outer Body -->
+  <circle cx="50" cy="50" r="48" fill="url(#vinylGrooves)" stroke="#c2883f" stroke-width="2.5" />
+
+  <!-- Concentric Vinyl Grooves -->
+  <circle cx="50" cy="50" r="43" fill="none" stroke="rgba(246, 243, 235, 0.12)" stroke-width="0.8" />
+  <circle cx="50" cy="50" r="38" fill="none" stroke="rgba(246, 243, 235, 0.08)" stroke-width="0.8" />
+  <circle cx="50" cy="50" r="33" fill="none" stroke="rgba(246, 243, 235, 0.12)" stroke-width="0.8" />
+  <circle cx="50" cy="50" r="28" fill="none" stroke="rgba(246, 243, 235, 0.08)" stroke-width="0.8" />
+
+  <!-- Center Record Spindle Label -->
+  <circle cx="50" cy="50" r="22" fill="#181714" stroke="#c2883f" stroke-width="1.5" />
+
+  <!-- Spindle Hole -->
+  <circle cx="50" cy="50" r="4" fill="#c2883f" />
+
+  <!-- Wordmark 'listen.' -->
+  <text
+    x="50"
+    y="56"
+    font-family="'Playfair Display', Georgia, serif"
+    font-size="16.5"
+    font-weight="700"
+    fill="#f6f3eb"
+    text-anchor="middle"
+    letter-spacing="-0.04em"
+  >listen<tspan fill="#c2883f">.</tspan></text>
+</svg>
