@@ -15,11 +15,11 @@ import {
   ShieldCheck,
 } from 'lucide-react'
 
-const ADDRESS = '1237 Barrington Street, Halifax, Nova Scotia, B3J 1Y2'
+const ADDRESS = '1237 Barrington Street, Halifax, Nova Scotia, B3J 1Y2, Canada'
 const PHONE = '+1 (902) 223-6696'
-const EMAIL = 'aashusmoky@gmail.com'
+const EMAIL = 'listenhalifax@gmail.com'
 const WHATSAPP = 'https://wa.me/19022236696'
-const INSTAGRAM = 'https://www.instagram.com/aashusmoky/'
+const INSTAGRAM = 'https://www.instagram.com/listenhalifax/'
 const MAPS_URL = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(ADDRESS)}`
 
 export default function ContactPage({ onOpenReservation }) {
@@ -38,12 +38,12 @@ export default function ContactPage({ onOpenReservation }) {
   const [serverError, setServerError] = useState(null)
 
   useEffect(() => {
-    document.title = 'Contact & Table Enquiries — Aashu Smoky'
+    document.title = 'Contact & Table Enquiries — Listen | Halifax'
     const metaDesc = document.querySelector('meta[name="description"]')
     if (metaDesc) {
       metaDesc.setAttribute(
         'content',
-        'Get in touch with Aashu Smoky at 1237 Barrington St, Halifax. Enquire about table reservations, private vinyl sessions, coffee catering, or music events.'
+        'Get in touch with Listen (Rooms Coffee) at 1237 Barrington St, Halifax. Enquire about table reservations, private vinyl sessions, coffee catering, or music events.'
       )
     }
   }, [])
@@ -108,7 +108,7 @@ export default function ContactPage({ onOpenReservation }) {
       // Fallback
       setSubmissionSuccess({
         enquiryId: `msg-local-${Date.now().toString().slice(-4)}`,
-        message: 'Your message has been safely received by the Aashu Smoky team.',
+        message: 'Your message has been safely received by the Listen team.',
       })
     } finally {
       setIsSubmitting(false)
@@ -137,7 +137,7 @@ export default function ContactPage({ onOpenReservation }) {
         <aside className="contact-info-cards">
           <div className="contact-info-card">
             <p className="eyebrow">FIND US IN HALIFAX</p>
-            <h3>Aashu Smoky</h3>
+            <h3>Listen</h3>
             <p className="address-paragraph">
               <MapPin size={17} className="text-copper" />
               <span>1237 Barrington Street<br />Halifax, NS B3J 1Y2<br />Canada</span>
@@ -178,7 +178,7 @@ export default function ContactPage({ onOpenReservation }) {
             <p className="contact-detail-line">
               <Instagram size={15} />
               <a href={INSTAGRAM} target="_blank" rel="noreferrer">
-                @aashusmoky
+                @listenhalifax
               </a>
             </p>
           </div>
@@ -355,14 +355,14 @@ export default function ContactPage({ onOpenReservation }) {
       <section className="section-wrap contact-map-wrap">
         <div className="map-text">
           <p className="eyebrow">DIRECTIONS</p>
-          <h2>Finding Aashu Smoky</h2>
+          <h2>Finding Listen</h2>
           <p>
             Located in downtown Halifax on Barrington Street between Morris and Bishop. Close to public transit and waterfront walking routes.
           </p>
         </div>
         <div className="map-frame-box">
           <iframe
-            title="Aashu Smoky Barrington Street Map"
+            title="Rooms Coffee - Listen Barrington Street Map"
             src="https://maps.google.com/maps?q=1237%20Barrington%20Street%2C%20Halifax%2C%20Nova%20Scotia&t=&z=16&ie=UTF8&iwloc=&output=embed"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

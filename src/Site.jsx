@@ -65,16 +65,16 @@ function Header({ onOpenReservation }) {
             <MessageCircle size={12} /> WhatsApp
           </a>
           <a href={dbData.business.instagram} target="_blank" rel="noreferrer">
-            <Instagram size={12} /> @aashusmoky <ArrowUpRight size={11} />
+            <Instagram size={12} /> @listenhalifax <ArrowUpRight size={11} />
           </a>
         </div>
       </div>
 
       {/* Main Sticky Header */}
       <header className="site-header-smoky">
-        <Link aria-label="Aashu Smoky Home" className="wordmark-smoky" to="/">
-          <span>aashu smoky<span className="wordmark-dot-copper">.</span></span>
-          <small>LISTEN · COFFEE &amp; RECORDS</small>
+        <Link aria-label="Listen Halifax Home" className="wordmark-smoky" to="/">
+          <span>listen<span className="wordmark-dot-copper">.</span></span>
+          <small>ROOMS COFFEE · VINYL &amp; ESPRESSO</small>
         </Link>
 
         {/* Desktop Navigation */}
@@ -162,10 +162,10 @@ function Footer({ onOpenReservation }) {
       <div className="footer-main-smoky">
         <div className="footer-brand-smoky">
           <Link className="footer-wordmark-smoky" to="/">
-            aashu smoky<span>.</span>
+            listen<span>.</span>
           </Link>
           <p className="footer-tagline">
-            Listen, Coffee, Records &amp; a Place to Pause. Specialty espresso, single origin pour-overs, and audiophile vinyl listening in downtown Halifax.
+            Rooms Coffee - Listen. Specialty coffee, ceremonial matcha, and curated vinyl record listening in downtown Halifax.
           </p>
           <div className="footer-badges">
             <span>Audiophile Analog Sound</span> • <span>Ethical Micro-Roasts</span>
@@ -189,7 +189,7 @@ function Footer({ onOpenReservation }) {
             1237 Barrington Street<br />Halifax, NS B3J 1Y2 <ArrowUpRight size={13} />
           </a>
           <a href="tel:+19022236696">+1 (902) 223-6696</a>
-          <a href="mailto:aashusmoky@gmail.com">aashusmoky@gmail.com</a>
+          <a href="mailto:listenhalifax@gmail.com">listenhalifax@gmail.com</a>
           <Link to="/contact">Send an Enquiry</Link>
         </div>
 
@@ -199,8 +199,8 @@ function Footer({ onOpenReservation }) {
             <strong>Every Day:</strong><br />
             8:00 AM – 7:00 PM
           </p>
-          <a href="https://www.instagram.com/aashusmoky/" target="_blank" rel="noreferrer">
-            <Instagram size={15} /> @aashusmoky
+          <a href="https://www.instagram.com/listenhalifax/" target="_blank" rel="noreferrer">
+            <Instagram size={15} /> @listenhalifax
           </a>
           <a href="https://wa.me/19022236696" target="_blank" rel="noreferrer">
             <MessageCircle size={15} /> WhatsApp Live Chat
@@ -209,7 +209,7 @@ function Footer({ onOpenReservation }) {
       </div>
 
       <div className="footer-bottom-smoky">
-        <span>© {new Date().getFullYear()} Aashu Smoky. All rights reserved.</span>
+        <span>© {new Date().getFullYear()} Rooms Coffee - Listen. All rights reserved.</span>
         <span>1237 Barrington Street, Halifax, Nova Scotia.</span>
         <a href="#top">Back to top ↑</a>
       </div>

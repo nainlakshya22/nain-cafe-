@@ -64,7 +64,7 @@ export default function VisitPage({ onOpenReservation }) {
           <p className="eyebrow">GET IN TOUCH</p>
           <h2>Direct Reach</h2>
           <p>Phone: <a href="tel:+19022236696">+1 (902) 223-6696</a></p>
-          <span>WhatsApp &amp; Instagram: @aashusmoky</span>
+          <span>WhatsApp &amp; Instagram: @listenhalifax</span>
           <Link to="/contact" className="text-link">
             Send Message Online <ArrowRight size={14} />
           </Link>
@@ -85,7 +85,7 @@ export default function VisitPage({ onOpenReservation }) {
         </div>
         <div className="map-view-box">
           <iframe
-            title="Aashu Smoky Barrington Street Map"
+            title="Rooms Coffee - Listen Barrington Street Map"
             src="https://maps.google.com/maps?q=1237%20Barrington%20Street%2C%20Halifax%2C%20Nova%20Scotia&t=&z=16&ie=UTF8&iwloc=&output=embed"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

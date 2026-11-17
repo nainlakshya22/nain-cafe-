@@ -9,7 +9,7 @@ import {
 import { Link } from 'react-router-dom'
 
 const WHATSAPP_URL =
-  'https://wa.me/19022236696?text=Hi%20Aashu%20Smoky%20team%2C%20I%20would%20like%20to%20inquire%20about%20a%20table%20reservation%20or%20menu%20offerings!'
+  'https://wa.me/19022236696?text=Hi%20Listen%20Halifax%20team%2C%20I%20would%20like%20to%20inquire%20about%20a%20table%20reservation%20or%20menu%20offerings!'
 const DIRECTIONS_URL =
   'https://www.google.com/maps/dir/?api=1&destination=1237+Barrington+Street,+Halifax,+Nova+Scotia'
 
@@ -23,7 +23,7 @@ export default function FloatingActions({ onOpenReservation }) {
           target="_blank"
           rel="noreferrer"
           className="whatsapp-btn"
-          aria-label="Chat with Aashu Smoky on WhatsApp"
+          aria-label="Chat with Listen Halifax on WhatsApp"
         >
           <MessageCircle size={22} fill="white" />
           <span className="whatsapp-label">Chat with Us</span>

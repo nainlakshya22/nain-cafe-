@@ -62,7 +62,8 @@ export function handleApiRequest(req, res) {
   if (method === 'GET' && pathname === '/api/health') {
     return jsonResponse(200, {
       status: 'ok',
-      service: 'Aashu Smoky API Server',
+      service: 'Rooms Coffee - Listen API Server',
+      brand: 'Listen',
       version: '2.0.0',
       timestamp: new Date().toISOString(),
     })
@@ -196,7 +197,7 @@ export function handleApiRequest(req, res) {
 
       return jsonResponse(201, {
         success: true,
-        message: 'Your table reservation at Aashu Smoky has been confirmed! A confirmation email has been logged.',
+        message: 'Your table reservation at Listen (Rooms Coffee) has been confirmed! A confirmation email has been logged.',
         reservation: newReservation,
       })
     })
@@ -257,7 +258,7 @@ export function handleApiRequest(req, res) {
 
       return jsonResponse(201, {
         success: true,
-        message: 'Thank you for reaching out to Aashu Smoky! Our café team will respond shortly.',
+        message: 'Thank you for reaching out to Listen (Rooms Coffee)! Our café team will respond shortly.',
         enquiryId: newMsg.id,
       })
     })

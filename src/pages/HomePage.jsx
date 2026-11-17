@@ -45,11 +45,11 @@ export default function HomePage({ onOpenReservation }) {
         <div className="home-hero-content-smoky">
           <p className="eyebrow eyebrow-copper">1237 BARRINGTON STREET · HALIFAX, NS</p>
           <h1>
-            Aashu Smoky.<br />
-            <em>Coffee &amp; Records.</em>
+            Listen.<br />
+            <em>Coffee, Matcha &amp; Records.</em>
           </h1>
           <p className="home-hero-subtitle">
-            A sanctuary for specialty coffee, slow-steeped moments, and the warmth of analog vinyl. Step off the street and find a little room to pause.
+            A unique coffee shop in Halifax combining Hi-Fi listening culture with a curated vinyl record shop. Specialty coffee, ceremonial matcha, and fresh-baked goods on Barrington Street.
           </p>
 
           <div className="home-hero-actions">
@@ -89,10 +89,10 @@ export default function HomePage({ onOpenReservation }) {
           </div>
           <div className="smoky-story-text">
             <p>
-              Aashu Smoky was shaped around two simple pleasures: a meticulously brewed drink and the kind of record that makes you look up from your phone.
+              Listen was shaped around two simple pleasures: a meticulously brewed drink and the kind of record that makes you look up from your phone.
             </p>
             <p>
-              Whether it’s our house-smoked maple caramel espresso or a rare Blue Note jazz pressing spinning on the turntable, we invite you to take a breath, tune in, and let the track finish.
+              Whether it’s our single origin pour-over, ceremonial matcha latte, or a rare Blue Note jazz pressing spinning on the turntable, we invite you to take a breath, tune in, and let the track finish.
             </p>
             <Link to="/about" className="text-link">
               Our Story &amp; Philosophy <ArrowRight size={15} />
@@ -184,7 +184,7 @@ export default function HomePage({ onOpenReservation }) {
             for <em>this moment.</em>
           </h2>
           <p>
-            Digital audio is convenient, but analog vinyl has warmth, presence, and intention. At Aashu Smoky, we curate rare pressings from jazz to ambient soul, playing on tube amplifiers throughout the café.
+            Digital audio is convenient, but analog vinyl has warmth, presence, and intention. At Listen, we curate rare pressings from jazz to ambient soul, playing on tube amplifiers throughout the café.
           </p>
           <div className="vinyl-specs-list">
             <div className="spec-bullet">
@@ -211,7 +211,7 @@ export default function HomePage({ onOpenReservation }) {
         <div className="gallery-section-header">
           <div>
             <p className="eyebrow">04 — ATMOSPHERE</p>
-            <h2>Inside Aashu Smoky</h2>
+            <h2>Inside Listen</h2>
           </div>
           <Link to="/gallery" className="text-link">
             See Full Photo Archive <ArrowUpRight size={14} />
@@ -289,7 +289,7 @@ export default function HomePage({ onOpenReservation }) {
           </div>
           <div className="visit-preview-map">
             <iframe
-              title="Aashu Smoky Barrington Street Halifax Map"
+              title="Rooms Coffee - Listen Barrington Street Halifax Map"
               src="https://maps.google.com/maps?q=1237%20Barrington%20Street%2C%20Halifax%2C%20Nova%20Scotia&t=&z=16&ie=UTF8&iwloc=&output=embed"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

@@ -21,8 +21,8 @@ const experiencesList = [
   },
   {
     number: '03',
-    title: 'Signature Smoked Creations',
-    description: 'Try our famous Smoky Maple Caramel Latte, Pistachio Velvet, or Iced Vanilla Shakerato.',
+    title: 'Signature Beverage Creations',
+    description: 'Try our handcrafted Nova Scotia Maple Sea Salt Latte, Pistachio Velvet, or Ceremonial Matcha Latte.',
     image: '/images/listen-drinks.jpg',
     detail: 'Signature Drinks · House-made syrups',
     route: '/menu',

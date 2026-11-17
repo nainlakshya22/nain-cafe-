@@ -1,12 +1,13 @@
-# Aashu Smoky — Website Upgrade & Quality Audit
+# Rooms Coffee - Listen — Complete Brand & Website Audit
 
-**Client:** Aashu Smoky  
+**Full Business Name:** Rooms Coffee - Listen  
+**Primary Brand:** Listen  
 **Website:** `https://aashu-smoky.vercel.app/`  
-**Tagline:** *Listen, Coffee, Records & a Place to Pause*  
-**Address:** 1237 Barrington Street, Halifax, Nova Scotia, B3J 1Y2  
+**Tagline:** *Coffee, Matcha & Vinyl Listening Café in Halifax*  
+**Address:** 1237 Barrington Street, Halifax, Nova Scotia, B3J 1Y2, Canada  
 **Phone:** +1 (902) 223-6696 | **WhatsApp:** +19022236696  
-**Email:** aashusmoky@gmail.com | **Instagram:** @aashusmoky  
-**Branch:** `aashu-smoky-upgrade`
+**Email:** listenhalifax@gmail.com | **Instagram:** @listenhalifax (`https://www.instagram.com/listenhalifax/`)  
+**Branch:** `main`
 
 ---
 
@@ -30,8 +31,8 @@
 ## 2. Implemented Features Summary
 
 1. **Homepage Redesign**:
-   - Hero banner with cinematic turntable imagery, taglines, and audio trigger.
-   - Brand story & philosophy.
+   - Hero banner with cinematic turntable imagery, Listen wordmark, and audio trigger.
+   - Brand story & philosophy celebrating Halifax listening culture.
    - Featured digital menu preview with real-world CAD pricing.
    - Vinyl music experience showcase with audiophile listening booth highlights.
    - Curated atmosphere photo gallery.
@@ -47,7 +48,7 @@
 
 3. **Vinyl Music Player Experience**:
    - Persistent, non-blocking audio player across all pages.
-   - Tracklist featuring The Aashu Smoky Trio, Miles & Cedar, and Analog Evening Ensemble.
+   - Tracklist featuring Rooms Audio Collective, Miles & Cedar, and Analog Evening Ensemble.
    - Controls: Play / Pause, Next / Prev, Volume slider, Mute toggle, Elapsed time / duration.
    - Web Audio synthesizer ambient vinyl warmth & crackle generator.
    - No automatic autoplay; user-initiated listening.

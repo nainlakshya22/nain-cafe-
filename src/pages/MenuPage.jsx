@@ -20,12 +20,12 @@ export default function MenuPage({ onOpenReservation }) {
   const [menuItems, setMenuItems] = useState(dbData.menu || [])
 
   useEffect(() => {
-    document.title = 'Digital Menu & Coffee Offerings — Aashu Smoky'
+    document.title = 'Digital Menu & Coffee Offerings — Listen | Halifax'
     const metaDesc = document.querySelector('meta[name="description"]')
     if (metaDesc) {
       metaDesc.setAttribute(
         'content',
-        'Explore the handcrafted digital menu of Aashu Smoky: Single origin pour-overs, Smoky Maple Caramel Latte, Cold Brew, artisan grilled paninis, and Burnt Basque Cheesecake in Halifax.'
+        'Explore the handcrafted digital menu of Listen: Single origin pour-overs, ceremonial matcha, cold brew, artisan grilled paninis, and Burnt Basque Cheesecake in Halifax.'
       )
     }
   }, [])
@@ -48,7 +48,7 @@ export default function MenuPage({ onOpenReservation }) {
       {/* Menu Hero */}
       <section className="menu-hero-banner">
         <div className="section-wrap">
-          <p className="eyebrow">AASHU SMOKY DIGITAL MENU</p>
+          <p className="eyebrow">LISTEN DIGITAL MENU</p>
           <h1>
             Handcrafted Coffee,<br />
             <em>Warm Kitchen &amp; Desserts.</em>

@@ -290,7 +290,7 @@ export default function ReservationModal({ isOpen, onClose }) {
             <p className="eyebrow">RESERVATION CONFIRMED</p>
             <h2>We’re holding a table for you!</h2>
             <p className="confirmed-lead">
-              Thank you, <strong>{confirmedReservation.name}</strong>. Your reservation at Aashu Smoky has been confirmed.
+              Thank you, <strong>{confirmedReservation.name}</strong>. Your reservation at Listen (Rooms Coffee) has been confirmed.
             </p>
 
             <div className="confirmation-summary-box">

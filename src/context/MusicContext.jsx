@@ -6,7 +6,7 @@ export const TRACKLIST = [
   {
     id: 'trk-1',
     title: 'Barrington St. Blue Note',
-    artist: 'The Aashu Smoky Trio',
+    artist: 'Rooms Audio Collective',
     album: 'Warm Tubes & Fresh Beans',
     duration: 215, // seconds
     durationFormatted: '3:35',

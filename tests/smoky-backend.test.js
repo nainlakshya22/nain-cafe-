@@ -55,9 +55,9 @@ function callApi(options) {
   })
 }
 
-async function runSmokyTests() {
+async function runListenTests() {
   console.log(`\n======================================================`)
-  console.log(`AASHU SMOKY — AUTOMATED BACKEND & QA VERIFICATION`)
+  console.log(`ROOMS COFFEE - LISTEN — AUTOMATED BACKEND & QA VERIFICATION`)
   console.log(`======================================================\n`)
 
   let passed = 0
@@ -78,7 +78,8 @@ async function runSmokyTests() {
   const rHealth = await callApi({ method: 'GET', url: '/api/health' })
   assert(rHealth.status === 200, 'GET /api/health returns 200 OK')
   assert(rHealth.json.status === 'ok', 'Status payload is "ok"')
-  assert(rHealth.json.service.includes('Aashu Smoky'), 'Service identifies as Aashu Smoky API')
+  assert(rHealth.json.service.includes('Listen'), 'Service identifies as Rooms Coffee - Listen API')
+  assert(rHealth.json.brand === 'Listen', 'Service brand is "Listen"')
 
   // 2. Menu Endpoint
   console.log(`\n[TEST SUITE 2] Digital Menu Filtering & Search`)
@@ -93,8 +94,8 @@ async function runSmokyTests() {
   assert(rCold.json.menu.every(i => i.category === 'Cold Coffee'), 'All items belong to category "Cold Coffee"')
 
   // Keyword search
-  const rSearch = await callApi({ method: 'GET', url: '/api/menu?search=caramel' })
-  assert(rSearch.json.menu.some(i => i.id === 'as-smoky-caramel'), 'Search matches Smoky Maple Caramel Latte')
+  const rSearch = await callApi({ method: 'GET', url: '/api/menu?search=maple' })
+  assert(rSearch.json.menu.some(i => i.id === 'ls-maple-latte'), 'Search matches Nova Scotia Maple Sea Salt Latte')
 
   // 3. Table Reservation Submission & Validation
   console.log(`\n[TEST SUITE 3] Table Reservation Endpoint & Anti-Spam`)
@@ -167,7 +168,7 @@ async function runSmokyTests() {
     email: 'julian.vance@dal.ca',
     phone: '(902) 221-4455',
     subject: 'Private Vinyl Evening Booking',
-    message: 'Hello, our music society would like to host an acoustic listening night for 15 guests at Aashu Smoky.'
+    message: 'Hello, our music society would like to host an acoustic listening night for 15 guests at Listen.'
   }
   const rContact = await callApi({
     method: 'POST',
@@ -185,13 +186,13 @@ async function runSmokyTests() {
   )
 
   console.log(`\n======================================================`)
-  console.log(`ALL ${passed} AASHU SMOKY BACKEND TESTS PASSED (${failed} FAILED)`)
+  console.log(`ALL ${passed} ROOMS COFFEE - LISTEN BACKEND TESTS PASSED (${failed} FAILED)`)
   console.log(`======================================================\n`)
 
   if (failed > 0) process.exit(1)
 }
 
-runSmokyTests().catch(err => {
+runListenTests().catch(err => {
   console.error('Fatal test error:', err)
   process.exit(1)
 })

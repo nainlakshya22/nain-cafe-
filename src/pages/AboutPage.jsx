@@ -14,12 +14,12 @@ import { Link } from 'react-router-dom'
 
 export default function AboutPage({ onOpenReservation }) {
   useEffect(() => {
-    document.title = 'Our Story & Vinyl Philosophy — Aashu Smoky'
+    document.title = 'Our Story & Vinyl Philosophy — Listen | Halifax'
     const metaDesc = document.querySelector('meta[name="description"]')
     if (metaDesc) {
       metaDesc.setAttribute(
         'content',
-        'Learn the story behind Aashu Smoky: A sanctuary for specialty coffee, slow vinyl listening, and intentional pauses in downtown Halifax.'
+        'Learn the story behind Listen (Rooms Coffee): A sanctuary for specialty coffee, slow vinyl listening, and intentional pauses in downtown Halifax.'
       )
     }
   }, [])
@@ -35,7 +35,7 @@ export default function AboutPage({ onOpenReservation }) {
             take <em>time.</em>
           </h1>
           <p className="about-lead">
-            Aashu Smoky is a place for specialty coffee, rare vinyl records, and the quiet pleasure of paying attention.
+            Listen is a place for specialty coffee, rare vinyl records, and the quiet pleasure of paying attention.
           </p>
         </div>
       </section>
@@ -48,7 +48,7 @@ export default function AboutPage({ onOpenReservation }) {
             <h2>A cup is never just a <em>cup.</em></h2>
             <div className="about-rich-prose">
               <p>
-                It’s a reason to pause. A familiar little ritual. Something made with care, enjoyed without needing to be anywhere else. Aashu Smoky is shaped around that feeling—and around the way music can make an ordinary afternoon feel like its own small occasion.
+                It’s a reason to pause. A familiar little ritual. Something made with care, enjoyed without needing to be anywhere else. Listen is shaped around that feeling—and around the way music can make an ordinary afternoon feel like its own small occasion.
               </p>
               <p>
                 We believe in thoughtful coffee, an authentic record, and the kind of space that leaves room for both. In a world defined by notifications and rush, we created a corner designed for taking your time.
@@ -87,7 +87,7 @@ export default function AboutPage({ onOpenReservation }) {
           <blockquote className="smoky-quote-text">
             <Disc3 size={28} className="quote-disc-icon" />
             <p>“Make a little room for what you <em>love.</em>”</p>
-            <cite>THE AASHU SMOKY WAY</cite>
+            <cite>THE LISTEN WAY</cite>
           </blockquote>
         </div>
       </section>
@@ -123,15 +123,15 @@ export default function AboutPage({ onOpenReservation }) {
             <p className="eyebrow">03 — DOWNTOWN HALIFAX</p>
             <h2>A little corner to <em>come back to.</em></h2>
             <p>
-              Find Aashu Smoky at 1237 Barrington Street. Whether you’re meeting an old friend, reading a novel, or taking twenty minutes between meetings, the light is always on.
+              Find Listen at 1237 Barrington Street. Whether you’re meeting an old friend, reading a novel, or taking twenty minutes between meetings, the light is always on.
             </p>
             <a
-              href="https://www.instagram.com/aashusmoky/"
+              href="https://www.instagram.com/listenhalifax/"
               target="_blank"
               rel="noreferrer"
               className="text-link"
             >
-              Follow @aashusmoky on Instagram <ArrowUpRight size={14} />
+              Follow @listenhalifax on Instagram <ArrowUpRight size={14} />
             </a>
           </div>
 

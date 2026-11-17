@@ -62,12 +62,12 @@ export default function GalleryPage() {
   const [activeIndex, setActiveIndex] = useState(null)
 
   useEffect(() => {
-    document.title = 'Photo Archive & Atmosphere — Aashu Smoky'
+    document.title = 'Photo Archive & Atmosphere — Listen | Halifax'
     const metaDesc = document.querySelector('meta[name="description"]')
     if (metaDesc) {
       metaDesc.setAttribute(
         'content',
-        'Explore the visual atmosphere of Aashu Smoky: vinyl turntables, specialty coffee brewing, warm sunlit spaces, and confections on Barrington Street, Halifax.'
+        'Explore the visual atmosphere of Listen: vinyl turntables, specialty coffee brewing, warm sunlit spaces, and confections on Barrington Street, Halifax.'
       )
     }
   }, [])

@@ -1,12 +1,14 @@
 {
   "business": {
-    "name": "Aashu Smoky",
-    "tagline": "Listen, Coffee, Records & a Place to Pause",
-    "address": "1237 Barrington Street, Halifax, Nova Scotia, B3J 1Y2",
+    "name": "Listen",
+    "fullName": "Rooms Coffee - Listen",
+    "tagline": "Coffee, Matcha & Vinyl Listening Café in Halifax",
+    "address": "1237 Barrington Street, Halifax, Nova Scotia, B3J 1Y2, Canada",
     "phone": "+1 (902) 223-6696",
-    "email": "aashusmoky@gmail.com",
+    "email": "listenhalifax@gmail.com",
     "whatsapp": "+19022236696",
-    "instagram": "https://www.instagram.com/aashusmoky/",
+    "instagram": "https://www.instagram.com/listenhalifax/",
+    "instagramHandle": "@listenhalifax",
     "hours": {
       "weekdays": "8:00 AM – 7:00 PM",
       "weekends": "8:00 AM – 7:00 PM"
@@ -23,12 +25,12 @@
   ],
   "menu": [
     {
-      "id": "as-smoky-caramel",
-      "name": "Smoky Maple Caramel Latte",
+      "id": "ls-maple-latte",
+      "name": "Nova Scotia Maple Sea Salt Latte",
       "category": "Signature Drinks",
       "price": 6.75,
       "currency": "CAD",
-      "description": "Double espresso infused with house-smoked Nova Scotia maple syrup, velvety steamed oat milk, and a pinch of Maldon smoked sea salt.",
+      "description": "Double espresso infused with pure local Nova Scotia maple syrup, velvety steamed oat milk, and a pinch of Maldon sea salt.",
       "image": "/images/smoky-latte.jpg",
       "dietary": ["Vegetarian", "Vegan Optional"],
       "available": true,
@@ -172,7 +174,7 @@
       "id": "t1",
       "name": "Marcus Vance",
       "role": "Sound Designer & Coffee Enthusiast",
-      "quote": "Aashu Smoky is the rarest kind of sanctuary in the city. The turntable setup is audiophile-grade, and the Smoky Maple Caramel Latte is genuinely the best espresso drink in town.",
+      "quote": "Listen is the rarest kind of sanctuary in the city. The turntable setup is audiophile-grade, and the handcrafted espresso drinks are genuinely the best in town.",
       "rating": 5
     },
     {
@@ -186,7 +188,7 @@
       "id": "t3",
       "name": "David Chen",
       "role": "Halifax Resident",
-      "quote": "From the Burnt Basque Cheesecake to the calm, analog atmosphere, Aashu Smoky delivers an experience that respect your senses and your time. Outstanding place.",
+      "quote": "From the Burnt Basque Cheesecake to the calm, analog atmosphere, Listen delivers an experience that respects your senses and your time. Outstanding place.",
       "rating": 5
     }
   ],
@@ -194,7 +196,7 @@
     {
       "id": "trk-1",
       "title": "Autumn in Halifax (Vinyl Session)",
-      "artist": "The Aashu Smoky Trio",
+      "artist": "Rooms Audio Collective",
       "duration": "3:42",
       "vinylBpm": 78
     },
